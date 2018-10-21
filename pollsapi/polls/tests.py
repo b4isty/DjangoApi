@@ -31,7 +31,7 @@ class TestPoll(APITestCase):
     def test_create(self):
         self.client.login(username="test", password="test")
         params = {
-            "question": "How are you?",
+            "question": "How are you Sam?",
             "created_by": 1
 
         }
